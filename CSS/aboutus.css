@@ -1,0 +1,92 @@
+body  {
+    background-image: url("/images/spices.jpg");
+    
+  }
+
+.logo {
+    width: 20%;
+    height: auto;
+}
+.logo-container {
+    text-align: center;
+    margin: 20px 0;
+    margin-top: 100px;
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+}
+
+.about-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.about-section h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* External CSS for Spices Company Mission and Goals Sections */
+.section {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.section img.section-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-left, .text-right {
+    flex: 1;
+    padding: 20px;
+}
+
+.img-left, .img-right {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.text-left h2, .text-right h2 {
+    color: #8B4513; /* SaddleBrown color */
+    font-size: 1.5em;
+}
+
+.text-left p, .text-right p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 5px 0;
+    color: #8B4513; /* SaddleBrown color */
+    font-weight: bold;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    .section {
+        flex-direction: column;
+    }
+
+    .img-left, .img-right, .text-left, .text-right {
+        text-align: center;
+    }
+}
+

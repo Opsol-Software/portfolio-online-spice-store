@@ -1,0 +1,111 @@
+
+    .centered-content {
+        margin: 10px;
+        text-align: center;
+    }
+   /* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  
+        
+      
+}
+
+/* Styling for the Section */
+.section {
+    display: flex;
+    justify-content: space-between; /* Ensures even spacing between text and image */
+    align-items: center; /* Aligns content vertically */
+    margin: 20px;
+    padding: 20px;
+    gap: 20px; /* Adds space between the text and image */
+}
+
+/* Text Area Styling */
+.text-left {
+    max-width: 60%; /* Restrict the text width */
+}
+
+/* Image Styling */
+.img-right {
+    flex-shrink: 0; /* Ensures the image doesn’t shrink */
+}
+
+.section-image {
+    width: 300px; /* Adjust the size of the image */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
+/* Default text styling */
+.text-left h1 {
+    color: black; /* Default color */
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Highlight styling */
+.highlight {
+    background-color: rgba(255, 157, 0, 0.79); /* Highlight only the text */
+    display: inline; /* Restrict to the width of the text */
+    padding: 0; /* Remove extra padding */
+}
+
+
+.Cert {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left */
+    background-color: orange;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    margin-bottom: 100px;
+    max-width: 1200px;
+    border-radius: 10px;
+    padding: 20px;
+    overflow: visible; /* Allow content to overflow the box */
+    position: relative;
+}
+
+.fan-container {
+    width: 300px;
+    height: 300px;
+    position: relative; /* For positioning the logo */
+    margin-right: 50px; /* Increase space between logo and text */
+}
+
+.rotating-logo {
+    width: 200%; /* Make the logo larger than the container */
+    height: 200%;
+    position: absolute; /* Position relative to the container */
+    top: -50%; /* Center vertically */
+    left: -50%; /* Center horizontally */
+    animation: spin 100s linear infinite;
+}
+
+.text-container {
+    flex: 1; /* Allow the text container to fill the remaining space */
+    font-size: 16px; /* Increase readability */
+    color: #333;
+    line-height: 1.5; /* Improve text spacing */
+    text-align: left; /* Align text to the left */
+    padding-left: 20px; /* Add additional padding to push the text further right */
+}
+
+.text-container h2 {
+    margin: 0 0 10px; /* Add spacing below the heading */
+}
+
+.text-container p {
+    margin: 0; /* Remove default paragraph margins */
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
