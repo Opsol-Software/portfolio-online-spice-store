@@ -101,6 +101,11 @@ body, html {
     margin: 0; /* Remove default paragraph margins */
 }
 
+.brandheader{
+    font-size: 30px;
+    font-weight: bold;
+}
+
 @keyframes spin {
     from {
         transform: rotate(0deg);
@@ -109,3 +114,5 @@ body, html {
         transform: rotate(360deg);
     }
 }
+
+

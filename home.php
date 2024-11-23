@@ -69,7 +69,7 @@ include 'header.php';
         <img src="https://www.ruhunufoods.com/wp-content/uploads/2023/01/Plate-1300x1300-v2.webp" alt="Logo" class="rotating-logo">
     </div>
     <div class="text-container">
-        <h2>Our Guiding Values</h2>
+        <h2 class="brandheader">Our Guiding Values</h2>
         <p>Values that set us apart</p>
         <p>
             From our very inception over 45 years ago, Ruhunu Foods has been guided by a set of values that have ensured our growth has always been a sustainable and ethical one, benefitting not only our organisation.
@@ -101,8 +101,8 @@ include 'header.php';
 
     
     <div style="margin: 100px; text-align: center;">
-        <h2>We are working with</h2>
-        <img src="images/brands.webp" class="img-fluid" alt="...">
+        <h2 class="brandheader">We are working with</h2>
+        <img src="images/brandss.png" class="img-fluid" alt="...">
     </div>
 
 
